@@ -1,3 +1,7 @@
+/*
+Создайте функцию, которая принимает кол-во сек и форматирует их в кол-во дней, часов, минут и секунд.
+Пример: 123456 ->'1 days 10 hours 17 minutes 36 seconds '
+*/
 DELIMITER //
 DROP PROCEDURE IF EXISTS seconds_convertor;
 CREATE PROCEDURE seconds_convertor
